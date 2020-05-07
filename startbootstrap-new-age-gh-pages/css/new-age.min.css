@@ -62,14 +62,14 @@ Rockwell/*!
    header.masthead .device-container{max-width:325px}
  } */
  .masthead{position:relative;width:100%;height:auto;min-height:35rem;padding:15rem 0;background:linear-gradient(to bottom,rgba(10,10,10,.3) 0,rgb(33,33,33) 100%),url(../img/bg-masthead.jpg);background-position:center;background-repeat:no-repeat;background-attachment:scroll;background-size:cover}
- .masthead h1{padding-top: 10px; font-family:'Rockwell';font-size:6.5rem;padding-top: 40px;line-height:2.5rem;letter-spacing:.1rem;background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));-webkit-text-fill-color:transparent;-webkit-background-clip:text}
- .masthead h2{color: Grey;font-family:'Palatino'; max-width:20rem;font-size:1rem}
+ .masthead h1{padding-top: 10px; font-family:'Rockwell';font-size:6.5rem;padding-top: 40px;line-height:4.5rem;letter-spacing:.1rem;background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));-webkit-text-fill-color:transparent;-webkit-background-clip:text}
+ .masthead h2{color: Grey;font-family:'Palatino'; max-width:30rem;font-size:1.25rem}
  .masthead a{font-family: 'Rockwell'; font-style: italic; padding-bottom: 10px;}
  @media (min-width:768px){
-   .masthead h1{font-size:6.5rem;line-height:4rem; padding-top: 50px;letter-spacing:.1rem}
+   .masthead h1{font-size:6.5rem;line-height:4.5rem; padding-top: 50px;letter-spacing:.1rem}.masthead h2{max-width:30rem;font-size:1.25rem}
  }
  @media (min-width:992px){
-   .masthead{height:100vh;padding:0}.masthead h1{font-size:6.5rem;line-height:6.5rem;letter-spacing:.1rem}.masthead h2{max-width:30rem;font-size:1.25rem}
+   .masthead{height:100vh;padding:0}.masthead h1{font-size:6.5rem;line-height:4.5rem;letter-spacing:.1rem}.masthead h2{max-width:30rem;font-size:1.25rem}
  }
  section.download{position:relative;padding:150px 0 25px 0;}
  section.download{background:linear-gradient(rgb(33,33,33),rgb(10,10,10))}
